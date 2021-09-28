@@ -1,0 +1,32 @@
+$(document).ready(function(){
+    $(".para1").hover(function(){
+        audio1.play();
+        },
+    function(){
+        audio1.load();
+    });
+    $(".para2").hover(function(){
+        audio2.play();
+        },
+    function(){
+        audio2.load();
+    });
+    $(".para3").hover(function(){
+        audio3.play();
+        },
+    function(){
+        audio3.load();
+    });
+    $("img").hover(function(){
+        momosong.play();
+        },
+    function(){
+        momosong.load();
+    });
+    $("h1").hover(function(){
+        head.play();
+        },
+    function(){
+        head.load();
+    });
+});

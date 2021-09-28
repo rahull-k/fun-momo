@@ -1,0 +1,54 @@
+/**********************************TAG SELECTORS**********************************/
+
+body {
+    background-color: #DDFFBC;
+}
+
+h1 {
+    font-size: 95px;
+    color: #FF8303;
+}
+h1:hover {
+    font-size: 100px;
+}
+
+img {
+    background-color: #C2F784;
+    padding: 25px;
+    border-radius: 25px;
+    margin-left: 16%;
+    margin-right: 16%;
+}
+
+img:hover {
+    padding: 30px;
+    border-radius: 30%;
+    background-color: #54E346;
+}
+/**********************************CLASS SELECTORS**********************************/
+
+.para1 {
+    font-size: 20px;
+    color: red;
+}
+.para1:hover {
+font-size: 22.5px;
+}
+
+
+.para2 {
+    font-size: 20px;
+    color: blue;
+}
+.para2:hover {
+font-size: 22.5px;
+}
+
+
+.para3 {
+    font-size: 20px;
+    color: green;
+}
+.para3:hover {
+    font-size: 22.5px;
+}
